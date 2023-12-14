@@ -1,23 +1,23 @@
 package io.boring.storage.engine;
 
+import static java.util.Objects.requireNonNull;
+
 import io.boring.storage.engine.api.EngineOptions;
 import io.boring.storage.engine.api.StorageEngine;
 
-import static java.util.Objects.requireNonNull;
-
 /**
  * {@link StorageEngine} factory.
- * <p>
- * todo.. comment
+ *
+ * <p>todo.. comment
  */
 public final class StorageEngineFactory {
 
-    /**
-     * @param engineOptions
-     * @return
-     */
-    public static StorageEngine createEngine(EngineOptions engineOptions) {
-        requireNonNull(engineOptions);
-        return new LSMTreeStorageEngine();
-    }
+  /**
+   * @param engineOptions
+   * @return
+   */
+  public static StorageEngine createEngine(EngineOptions engineOptions) {
+    requireNonNull(engineOptions);
+    return new LSMTreeStorageEngine();
+  }
 }

@@ -2,3 +2,5 @@ rootProject.name = 'boring'
 
 
 include('subprojects:boring-storage')
+include('subprojects:boring-node')
+include('subprojects:boring-consensus')

@@ -1,0 +1,11 @@
+plugins {
+    id "com.google.protobuf" version "0.9.4"
+}
+
+
+// ------------ JDK compiler ---------------
+java.sourceCompatibility = JavaVersion.VERSION_1_8
+java.targetCompatibility = JavaVersion.VERSION_1_8
+
+dependencies {
+}

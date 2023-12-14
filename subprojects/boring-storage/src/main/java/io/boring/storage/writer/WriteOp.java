@@ -1,4 +1,4 @@
-package io.boring.storage.engine.writer;
+package io.boring.storage.writer;
 
 import io.boring.storage.engine.api.WriteOptions;
 import java.nio.ByteBuffer;

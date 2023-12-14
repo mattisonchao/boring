@@ -1,4 +1,4 @@
-package io.boring.storage.engine.writer;
+package io.boring.storage.writer;
 
 import static java.util.Objects.requireNonNull;
 

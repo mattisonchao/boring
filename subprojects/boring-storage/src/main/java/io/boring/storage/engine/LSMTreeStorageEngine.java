@@ -2,8 +2,8 @@ package io.boring.storage.engine;
 
 import io.boring.storage.engine.api.StorageEngine;
 import io.boring.storage.engine.api.WriteOptions;
-import io.boring.storage.engine.writer.PipelineOptions;
-import io.boring.storage.engine.writer.WritePipeline;
+import io.boring.storage.writer.PipelineOptions;
+import io.boring.storage.writer.WritePipeline;
 import java.nio.ByteBuffer;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Executor;
